@@ -1,0 +1,148 @@
+:root {
+  font-size: 15px;
+}
+
+.myContainer {
+  margin: 0;
+  padding-right: 18px;
+  padding-left: 18px;
+  max-width: 100%;
+}
+.myRow {
+  /*border: 1px solid black;
+  border-radius: 0.5px;*/
+  height: 50%;
+}
+.myCol {
+  max-height: 100%;
+  /*border: 1px solid black;*/
+  border-radius: 0.5px;
+}
+html,
+body,
+.container {
+  height: 100%;
+  direction: rtl;
+  overflow: hidden;
+}
+.form-control {
+  padding: 0em 0em;
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  font-weight: bold;
+  font-size: inherit;
+}
+.form-control:disabled {
+  background-color: transparent;
+}
+
+.table td,
+.table th {
+  padding: 0em 0em;
+}
+
+.exceptionButton {
+  float: right;
+}
+.row {
+  justify-content: center;
+}
+
+.remarks {
+  /* border: 2px solid black;*/
+  text-align: right;
+  min-height: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+}
+.table-bordered th {
+  border: 2px solid black;
+}
+
+td {
+  border: 2px solid black;
+}
+
+.exceptionName {
+  text-align: right;
+}
+
+.exceptionVal {
+  text-align: left;
+}
+
+.jodit-container {
+  height: 100% !important;
+  text-align: right;
+  border: 2px solid black;
+  overflow: auto;
+}
+
+.titleColor {
+  float: right;
+}
+
+#freeText {
+  display: flex;
+  flex-direction: column;
+}
+
+#remarks {
+  text-align: right;
+  overflow: auto;
+  height: 100%;
+}
+
+.table-wrapper-scroll-y {
+  height: 100%;
+}
+
+.mobile {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+@media (orientation: portrait) {
+  .mobileContainer {
+    height: 100%;
+    font-size: 70px;
+  }
+
+  .mobileBody {
+    flex-direction: column;
+    height: 100%;
+    direction: rtl;
+    overflow: auto;
+  }
+}
+
+@media (orientation: landscape) {
+  .mobileContainer {
+    height: 100%;
+    font-size: 30px;
+  }
+
+  .mobileBody {
+    flex-direction: column;
+    height: 100%;
+    direction: rtl;
+    overflow: auto;
+  }
+}
+.fontSize {
+  float: right;
+  position: absolute;
+}
+
+.rightEdge {
+  padding-right: 5px;
+}
+.leftEdge {
+  padding-left: 5px;
+}
+span {
+  font-size: inherit !important;
+}
